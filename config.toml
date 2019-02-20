@@ -1,0 +1,13 @@
+baseURL = "/"
+languageCode = "ru"
+title = "Интернет и связанные с ним риски"
+
+enableEmoji = true
+
+watch = true
+log = false
+verbose = false
+verboseLog = false
+cleanDestinationDir = true
+
+uglyURLs = false

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>{{ .Title }}</title>
+    {{ partial "head/styles.html" . }}
+    {{ partial "head/scripts.html" . }}
+  </head>
+  <body class="stackedit">
+    <div id="vue">
+      {{ partial "header/site-header.html" . }}
+      <router-view></router-view>
+    </div>
+
+    {{ partial "footer/scripts.html" . }}
+  </body>
+</html>
