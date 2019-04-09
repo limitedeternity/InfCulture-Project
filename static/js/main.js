@@ -219,9 +219,14 @@ var pageComponents = {
         <center>
           <h3>✨ Мультимедийные материалы</h3>
         </center>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
+        <ol>
+          <li>
+            <a href="https://ulearn.me/Course/Hackerdom/Tiemy_kursa_2bc58982-19aa-49ef-bae2-8aaa5d13b967" target="_blank"><strong>Курс "Основы компьютерной безопасности"<strong></a>
+          </li>
+          <li>
+            <a href="https://stepik.org/course/191/" target="_blank"><strong>Курс "Безопасность в Интернете"</strong></a>
+          </li>
+        </ol>
       </div>
       */
     }),
@@ -234,13 +239,17 @@ var pageComponents = {
         <center>
           <h3>✨ Мотивационная презентация</h3>
         </center>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
+        <div class="canva-embed" data-design-id="DADWn1Wjd4A" data-height-ratio="0.7500" style="padding:75.0000% 5px 5px 5px;background:rgba(0,0,0,0.03);border-radius:8px;"></div>
       </div>
       */
     }),
-    name: "Presentation"
+    name: "Presentation",
+    mounted: function() {
+      var script = document.createElement("script");
+      script.setAttribute("src", "https://sdk.canva.com/v1/embed.js");
+      script.setAttribute("async", true);
+      document.body.appendChild(script);
+    }
   },
   pollComponent: {
     template: literal(function() {
