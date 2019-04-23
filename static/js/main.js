@@ -258,9 +258,9 @@ var pageComponents = {
         <center>
           <h3>✨ Сетевой опрос</h3>
         </center>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
+        <div class="centered">
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdGm7L1VAvYW4E5SO4jEfZIaNq5Tf21su8amdAORdbUS5TXDg/viewform?embedded=true" width="640" height="397" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        </div>
       </div>
       */
     }),

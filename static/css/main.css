@@ -2,3 +2,9 @@ a.router-link-exact-active.router-link-active {
   color: #7f00ff;
   text-decoration: none;
 }
+
+div.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
