@@ -274,8 +274,11 @@ var pageComponents = {
           <h3>✨ Интеллект-карта</h3>
         </center>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Цель создания интеллект-карты: "разметка" изучаемой области.
         </p>
+        <div class="centered">
+          <iframe width="640" height="397" frameborder="0" src="https://www.mindmeister.com/maps/public_map_shell/1263266766/_?width=640&height=397&z=auto&t=JyX42eXWzR" scrolling="no" style="overflow: hidden; margin-bottom: 5px;">Ваш браузер не отображает фреймы. Пожалуйста, посетите <a href="https://www.mindmeister.com/1263266766/_?t=JyX42eXWzR" target="_blank">Интернет и связанные с ним риски</a> в MindMeister.</iframe>
+        </div>
       </div>
       */
     }),
