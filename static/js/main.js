@@ -291,9 +291,9 @@ var pageComponents = {
         <center>
           <h3>✨ Итоговая презентация проекта</h3>
         </center>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
+        <blockquote>
+          <p>27 мая 2019</p>
+        </blockquote>
       </div>
       */
     }),
